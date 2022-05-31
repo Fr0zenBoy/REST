@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+xD
+
 namespace DevIO.Api.Configuration
 {
     public static class ApiConfig
@@ -68,7 +70,7 @@ namespace DevIO.Api.Configuration
             }
             else
             {
-                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
+                app.useCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
                 app.UseHsts();
             }
 
